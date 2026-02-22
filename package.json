@@ -7,8 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
+  "homepage": "https://username.github.io/Happy-Birthday",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
     "jquery": "^3.7.1",
