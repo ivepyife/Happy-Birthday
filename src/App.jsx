@@ -26,6 +26,7 @@ const App = () => {
         </Route>
       </Route>,
     ),
+    { basename: "/Happy-Birthday" }, // 👈 Tambahkan baris ini di sini
   );
 
   // ------------------Cake loader
